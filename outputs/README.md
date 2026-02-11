@@ -1,8 +1,6 @@
 # Outputs
 
-This folder contains output artifacts generated from the notebooks.
-
-## Recommended Structure
+To refer to the outputs generated refer to the notebook files which have 
 
 - `outputs/figures/`  
   Store plots such as:
