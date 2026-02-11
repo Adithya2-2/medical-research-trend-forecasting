@@ -1,1 +1,27 @@
+numpy
+pandas
+matplotlib
+tqdm
+
+scikit-learn
+
+nltk
+spacy
+
+datasets
+transformers
+sentence-transformers
+
+bertopic
+umap-learn
+hdbscan
+
+statsmodels
+prophet
+
+torch
+tensorflow
+
+jupyter
+notebook
 
