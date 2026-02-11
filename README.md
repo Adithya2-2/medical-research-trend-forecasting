@@ -60,3 +60,50 @@ Forecasting models predict the topic frequency into the future for horizons:
 ---
 
 
+
+---
+
+## 📘 Notebook Explanation 
+
+### ✅ Notebook 1 — `nlp_code.ipynb`
+This notebook performs the NLP + topic modeling pipeline:
+
+- Loads scientific abstracts dataset
+- Cleans and preprocesses the text
+- Generates sentence embeddings using SBERT (`all-MiniLM-L6-v2`)
+- Applies BERTopic for unsupervised topic modeling
+- Extracts topic keywords and topic assignments
+- Prepares topic distributions for temporal processing
+
+---
+
+### ✅ Notebook 2 — `nlp_2.ipynb`
+This notebook performs the forecasting + evaluation pipeline:
+
+- Builds monthly topic frequency time-series
+- Forecasts topic trends using:
+  - ARIMA
+  - Prophet
+  - LSTM
+- Evaluates forecasting performance using:
+  - MAE
+  - RMSE
+  - MAPE
+  - Directional Accuracy (DA)
+- Generates trend plots, forecast plots, and volatility plots
+
+---
+
+## 📊 Outputs
+
+The project generates:
+
+- Topic keyword summaries
+- Monthly topic trend plots
+- Forecasted topic prevalence plots
+- Volatility plots
+- Forecast evaluation metrics
+
+
+
+
