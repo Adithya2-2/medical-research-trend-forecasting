@@ -4,7 +4,7 @@ This folder contains the implementation notebooks for the project.
 
 ## Files
 
-### `nlp_code.ipynb`
+### `nlp_code-1.ipynb`
 Implements the NLP + topic modeling pipeline:
 - Dataset loading
 - Text preprocessing
