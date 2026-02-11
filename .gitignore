@@ -1,23 +1,36 @@
+# -------------------------
 # Python
+# -------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Jupyter
+# -------------------------
+# Jupyter Notebook
+# -------------------------
 .ipynb_checkpoints/
 
-# Virtual env
+# -------------------------
+# Virtual Environment
+# -------------------------
 venv/
 .env/
 
-# OS
+# -------------------------
+# OS Files
+# -------------------------
 .DS_Store
 Thumbs.db
 
-# Dataset folders (avoid uploading huge data)
+# -------------------------
+# datasets 
+# -------------------------
 data/raw/
 data/processed/
 
-# Outputs (optional)
-outputs/
+# -------------------------
+# Output files 
+# 
+# -------------------------
+# outputs/
